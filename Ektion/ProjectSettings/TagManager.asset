@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Enemy
+  - Collectibles
+  - Ground
+  - Obstacle
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: TilemapBack
+    uniqueID: 2703356259
+    locked: 0
+  - name: Enemies
+    uniqueID: 1262022637
+    locked: 0
+  - name: Player
+    uniqueID: 3844436941
+    locked: 0
+  - name: Collectibles
+    uniqueID: 4212271229
+    locked: 0
+  - name: TilemapFront
+    uniqueID: 2975370217
+    locked: 0
+  - name: UI
+    uniqueID: 988804319
+    locked: 0
