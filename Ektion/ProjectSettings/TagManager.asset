@@ -8,13 +8,13 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Player
+  - 
   - Water
   - UI
-  - Enemy
-  - Collectibles
-  - Ground
-  - Obstacle
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -41,21 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: TilemapBack
-    uniqueID: 2703356259
-    locked: 0
-  - name: Enemies
-    uniqueID: 1262022637
+  - name: Ground
+    uniqueID: 431485809
     locked: 0
   - name: Player
-    uniqueID: 3844436941
+    uniqueID: 2879975889
     locked: 0
-  - name: Collectibles
-    uniqueID: 4212271229
+  - name: Enemy
+    uniqueID: 1207432881
     locked: 0
-  - name: TilemapFront
-    uniqueID: 2975370217
+  - name: Front
+    uniqueID: 2247342751
     locked: 0
   - name: UI
-    uniqueID: 988804319
+    uniqueID: 1096303475
     locked: 0
