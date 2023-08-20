@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -75,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -111,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -123,6 +129,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -135,6 +142,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1600,78 +1608,77 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      RPG Nature Tileset Autumn_44: 1927120683
-      RPG Nature Tileset Autumn_47: 340557668
-      RPG Nature Tileset Autumn_12: -1891784863
-      RPG Nature Tileset Autumn_7: 1516105327
-      RPG Nature Tileset Autumn_35: 744614920
-      RPG Nature Tileset Autumn_64: 1854210316
-      RPG Nature Tileset Autumn_30: 1855739528
-      RPG Nature Tileset Autumn_38: -1656789648
-      RPG Nature Tileset Autumn_65: -2102110908
-      RPG Nature Tileset Autumn_2: -1607123058
-      RPG Nature Tileset Autumn_27: -1961929345
-      RPG Nature Tileset Autumn_16: -462210835
-      RPG Nature Tileset Autumn_3: 442629329
-      RPG Nature Tileset Autumn_18: -1632321710
-      RPG Nature Tileset Autumn_28: -2107128522
-      RPG Nature Tileset Autumn_33: -84663034
-      RPG Nature Tileset Autumn_63: -205618701
-      RPG Nature Tileset Autumn_51: -1009568652
-      RPG Nature Tileset Autumn_5: 31901047
-      RPG Nature Tileset Autumn_26: 1347559347
-      RPG Nature Tileset Autumn_4: 2140147496
-      RPG Nature Tileset Autumn_61: 969019394
-      RPG Nature Tileset Autumn_68: 1608263044
-      RPG Nature Tileset Autumn_48: -350396612
-      RPG Nature Tileset Autumn_60: -336134780
       RPG Nature Tileset Autumn_0: 362195016
-      RPG Nature Tileset Autumn_40: 261699807
-      RPG Nature Tileset Autumn_10: 418406537
-      RPG Nature Tileset Autumn_19: -931093861
-      RPG Nature Tileset Autumn_34: 1447580104
-      RPG Nature Tileset Autumn_8: -1389682456
-      RPG Nature Tileset Autumn_15: -318868582
-      RPG Nature Tileset Autumn_37: 1092915610
-      RPG Nature Tileset Autumn_56: -113772307
-      RPG Nature Tileset Autumn_21: -208605751
-      RPG Nature Tileset Autumn_50: 1894448466
-      RPG Nature Tileset Autumn_55: -1880129082
-      RPG Nature Tileset Autumn_9: -1664242989
-      RPG Nature Tileset Autumn_53: -2091953866
-      RPG Nature Tileset Autumn_17: -1349984058
-      RPG Nature Tileset Autumn_20: 259315481
-      RPG Nature Tileset Autumn_22: 770077326
-      RPG Nature Tileset Autumn_59: -997944528
-      RPG Nature Tileset Autumn_32: -1637139374
-      RPG Nature Tileset Autumn_58: -906702542
-      RPG Nature Tileset Autumn_36: 476325852
-      RPG Nature Tileset Autumn_43: 2137140762
-      RPG Nature Tileset Autumn_54: 804412389
-      RPG Nature Tileset Autumn_66: 1898053375
-      RPG Nature Tileset Autumn_6: -1687793702
-      RPG Nature Tileset Autumn_25: 1891608184
-      RPG Nature Tileset Autumn_46: -800835082
-      RPG Nature Tileset Autumn_11: -1093812396
-      RPG Nature Tileset Autumn_52: -294721301
-      RPG Nature Tileset Autumn_62: 1297478561
-      RPG Nature Tileset Autumn_41: 2056718108
-      RPG Nature Tileset Autumn_24: -767333652
-      RPG Nature Tileset Autumn_29: -2075430032
-      RPG Nature Tileset Autumn_31: 1288954173
       RPG Nature Tileset Autumn_1: 1489680110
-      RPG Nature Tileset Autumn_57: -639996504
+      RPG Nature Tileset Autumn_10: 418406537
+      RPG Nature Tileset Autumn_11: -1093812396
+      RPG Nature Tileset Autumn_12: -1891784863
       RPG Nature Tileset Autumn_13: 2091826244
-      RPG Nature Tileset Autumn_42: 1480831228
-      RPG Nature Tileset Autumn_23: 295975928
-      RPG Nature Tileset Autumn_45: -940118985
-      RPG Nature Tileset Autumn_49: 82117149
       RPG Nature Tileset Autumn_14: 1085761397
+      RPG Nature Tileset Autumn_15: -318868582
+      RPG Nature Tileset Autumn_16: -462210835
+      RPG Nature Tileset Autumn_17: -1349984058
+      RPG Nature Tileset Autumn_18: -1632321710
+      RPG Nature Tileset Autumn_19: -931093861
+      RPG Nature Tileset Autumn_2: -1607123058
+      RPG Nature Tileset Autumn_20: 259315481
+      RPG Nature Tileset Autumn_21: -208605751
+      RPG Nature Tileset Autumn_22: 770077326
+      RPG Nature Tileset Autumn_23: 295975928
+      RPG Nature Tileset Autumn_24: -767333652
+      RPG Nature Tileset Autumn_25: 1891608184
+      RPG Nature Tileset Autumn_26: 1347559347
+      RPG Nature Tileset Autumn_27: -1961929345
+      RPG Nature Tileset Autumn_28: -2107128522
+      RPG Nature Tileset Autumn_29: -2075430032
+      RPG Nature Tileset Autumn_3: 442629329
+      RPG Nature Tileset Autumn_30: 1855739528
+      RPG Nature Tileset Autumn_31: 1288954173
+      RPG Nature Tileset Autumn_32: -1637139374
+      RPG Nature Tileset Autumn_33: -84663034
+      RPG Nature Tileset Autumn_34: 1447580104
+      RPG Nature Tileset Autumn_35: 744614920
+      RPG Nature Tileset Autumn_36: 476325852
+      RPG Nature Tileset Autumn_37: 1092915610
+      RPG Nature Tileset Autumn_38: -1656789648
       RPG Nature Tileset Autumn_39: -256110556
+      RPG Nature Tileset Autumn_4: 2140147496
+      RPG Nature Tileset Autumn_40: 261699807
+      RPG Nature Tileset Autumn_41: 2056718108
+      RPG Nature Tileset Autumn_42: 1480831228
+      RPG Nature Tileset Autumn_43: 2137140762
+      RPG Nature Tileset Autumn_44: 1927120683
+      RPG Nature Tileset Autumn_45: -940118985
+      RPG Nature Tileset Autumn_46: -800835082
+      RPG Nature Tileset Autumn_47: 340557668
+      RPG Nature Tileset Autumn_48: -350396612
+      RPG Nature Tileset Autumn_49: 82117149
+      RPG Nature Tileset Autumn_5: 31901047
+      RPG Nature Tileset Autumn_50: 1894448466
+      RPG Nature Tileset Autumn_51: -1009568652
+      RPG Nature Tileset Autumn_52: -294721301
+      RPG Nature Tileset Autumn_53: -2091953866
+      RPG Nature Tileset Autumn_54: 804412389
+      RPG Nature Tileset Autumn_55: -1880129082
+      RPG Nature Tileset Autumn_56: -113772307
+      RPG Nature Tileset Autumn_57: -639996504
+      RPG Nature Tileset Autumn_58: -906702542
+      RPG Nature Tileset Autumn_59: -997944528
+      RPG Nature Tileset Autumn_6: -1687793702
+      RPG Nature Tileset Autumn_60: -336134780
+      RPG Nature Tileset Autumn_61: 969019394
+      RPG Nature Tileset Autumn_62: 1297478561
+      RPG Nature Tileset Autumn_63: -205618701
+      RPG Nature Tileset Autumn_64: 1854210316
+      RPG Nature Tileset Autumn_65: -2102110908
+      RPG Nature Tileset Autumn_66: 1898053375
       RPG Nature Tileset Autumn_67: -230458001
-  spritePackingTag: 
+      RPG Nature Tileset Autumn_68: 1608263044
+      RPG Nature Tileset Autumn_7: 1516105327
+      RPG Nature Tileset Autumn_8: -1389682456
+      RPG Nature Tileset Autumn_9: -1664242989
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

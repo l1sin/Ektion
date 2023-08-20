@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -75,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -111,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -123,6 +129,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -135,6 +142,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -3217,155 +3225,154 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      IceTileset_9: 851089735
-      IceTileset_97: -935771181
-      IceTileset_93: 1099173146
-      IceTileset_69: -1748024561
-      IceTileset_128: 699671032
-      IceTileset_142: -1094831890
-      IceTileset_6: -1243241745
-      IceTileset_137: 1286590668
-      IceTileset_118: 1350495334
-      IceTileset_3: -2023102513
-      IceTileset_49: -540506210
-      IceTileset_89: -451945559
-      IceTileset_125: -1662649887
-      IceTileset_76: -1438022915
-      IceTileset_123: 1159812436
-      IceTileset_129: -1747487814
-      IceTileset_141: -1889931053
-      IceTileset_13: -423655259
-      IceTileset_133: -1121110119
-      IceTileset_46: -1092907040
-      IceTileset_104: 1314306279
-      IceTileset_5: -732193000
-      IceTileset_115: 814735287
-      IceTileset_39: -1680542554
-      IceTileset_16: 2100318031
-      IceTileset_28: 1306090300
-      IceTileset_60: 208856455
-      IceTileset_103: 21992145
-      IceTileset_34: 845969205
-      IceTileset_126: 904543376
-      IceTileset_79: 1339955087
-      IceTileset_8: -904448224
-      IceTileset_75: 1970693443
-      IceTileset_38: 134450664
-      IceTileset_132: -303922600
-      IceTileset_36: -1716768223
-      IceTileset_130: 694755183
-      IceTileset_68: 1880431353
-      IceTileset_71: -1161951758
-      IceTileset_66: -1741481045
-      IceTileset_101: -1714595743
-      IceTileset_25: -1906408900
-      IceTileset_112: 1865839432
-      IceTileset_32: 2063491116
-      IceTileset_42: 1417285365
-      IceTileset_92: 188548167
-      IceTileset_136: -1155512578
-      IceTileset_85: 674682383
-      IceTileset_120: 2006135017
-      IceTileset_114: -1304091159
-      IceTileset_91: -270240904
-      IceTileset_24: 1275077130
-      IceTileset_18: -1117681240
-      IceTileset_51: 1281744312
-      IceTileset_29: 1984700716
-      IceTileset_78: -366508729
-      IceTileset_61: 199483898
-      IceTileset_70: -471402834
+      IceTileset_0: 675263834
+      IceTileset_1: 1976314237
+      IceTileset_10: -405672926
       IceTileset_100: -1433818342
-      IceTileset_56: -3713017
-      IceTileset_116: -1473599060
-      IceTileset_31: -334753875
-      IceTileset_59: -475928205
-      IceTileset_95: 1149306206
-      IceTileset_65: 945853104
-      IceTileset_2: -677456571
-      IceTileset_45: -528375503
-      IceTileset_23: 741135185
+      IceTileset_101: -1714595743
+      IceTileset_102: 1316374110
+      IceTileset_103: 21992145
+      IceTileset_104: 1314306279
+      IceTileset_105: 2074909273
+      IceTileset_106: -1007601678
       IceTileset_107: 2039896137
-      IceTileset_98: 348593689
-      IceTileset_64: -1487999172
-      IceTileset_143: 847090272
-      IceTileset_11: 1089026133
-      IceTileset_87: -1290800453
+      IceTileset_108: 541886803
       IceTileset_109: 1305357477
+      IceTileset_11: 1089026133
+      IceTileset_110: 1855794827
       IceTileset_111: -1058141089
-      IceTileset_30: 204385282
+      IceTileset_112: 1865839432
+      IceTileset_113: -938380751
+      IceTileset_114: -1304091159
+      IceTileset_115: 814735287
+      IceTileset_116: -1473599060
+      IceTileset_117: -1339661228
+      IceTileset_118: 1350495334
+      IceTileset_119: -1257975931
+      IceTileset_12: -683378484
+      IceTileset_120: 2006135017
+      IceTileset_121: -413853657
+      IceTileset_122: -1741502609
+      IceTileset_123: 1159812436
+      IceTileset_124: -127394283
+      IceTileset_125: -1662649887
+      IceTileset_126: 904543376
+      IceTileset_127: 799643489
+      IceTileset_128: 699671032
+      IceTileset_129: -1747487814
+      IceTileset_13: -423655259
+      IceTileset_130: 694755183
+      IceTileset_131: 148563546
+      IceTileset_132: -303922600
+      IceTileset_133: -1121110119
+      IceTileset_134: -1821878909
       IceTileset_135: 1590498495
-      IceTileset_47: -1578068656
-      IceTileset_44: 757082385
-      IceTileset_90: 1919390938
-      IceTileset_43: -159834450
-      IceTileset_83: 1676681784
-      IceTileset_94: -800803856
-      IceTileset_33: 1319863816
-      IceTileset_77: -321885421
-      IceTileset_55: -481232227
-      IceTileset_63: -1702416940
-      IceTileset_22: 53545096
-      IceTileset_82: 575927010
-      IceTileset_52: -411655641
-      IceTileset_145: 1231852657
-      IceTileset_15: 156442664
-      IceTileset_50: 1838378914
-      IceTileset_140: 442068711
-      IceTileset_26: -1358794642
+      IceTileset_136: -1155512578
+      IceTileset_137: 1286590668
       IceTileset_138: -925443244
       IceTileset_139: 1148880941
-      IceTileset_144: 31256330
-      IceTileset_86: -274375801
-      IceTileset_0: 675263834
-      IceTileset_62: -833983981
-      IceTileset_7: 4518847
-      IceTileset_84: -79868947
-      IceTileset_27: -1152454382
-      IceTileset_96: 2102483243
-      IceTileset_113: -938380751
-      IceTileset_110: 1855794827
-      IceTileset_105: 2074909273
-      IceTileset_119: -1257975931
-      IceTileset_108: 541886803
-      IceTileset_72: -1173301645
-      IceTileset_134: -1821878909
-      IceTileset_102: 1316374110
-      IceTileset_12: -683378484
-      IceTileset_40: 2040466873
-      IceTileset_21: -736552254
-      IceTileset_73: 278072589
-      IceTileset_54: -401330301
-      IceTileset_19: -1479921230
-      IceTileset_106: -1007601678
-      IceTileset_117: -1339661228
-      IceTileset_48: 333840995
-      IceTileset_41: 1096723098
-      IceTileset_4: 64229442
-      IceTileset_80: -399071988
-      IceTileset_127: 799643489
-      IceTileset_122: -1741502609
-      IceTileset_1: 1976314237
-      IceTileset_124: -127394283
       IceTileset_14: 557407311
-      IceTileset_67: 322590368
-      IceTileset_20: 1714504041
-      IceTileset_10: -405672926
-      IceTileset_58: 1152537934
-      IceTileset_57: -620072893
-      IceTileset_81: -296776716
-      IceTileset_88: 681175643
+      IceTileset_140: 442068711
+      IceTileset_141: -1889931053
+      IceTileset_142: -1094831890
+      IceTileset_143: 847090272
+      IceTileset_144: 31256330
+      IceTileset_145: 1231852657
+      IceTileset_15: 156442664
+      IceTileset_16: 2100318031
       IceTileset_17: -1866569803
+      IceTileset_18: -1117681240
+      IceTileset_19: -1479921230
+      IceTileset_2: -677456571
+      IceTileset_20: 1714504041
+      IceTileset_21: -736552254
+      IceTileset_22: 53545096
+      IceTileset_23: 741135185
+      IceTileset_24: 1275077130
+      IceTileset_25: -1906408900
+      IceTileset_26: -1358794642
+      IceTileset_27: -1152454382
+      IceTileset_28: 1306090300
+      IceTileset_29: 1984700716
+      IceTileset_3: -2023102513
+      IceTileset_30: 204385282
+      IceTileset_31: -334753875
+      IceTileset_32: 2063491116
+      IceTileset_33: 1319863816
+      IceTileset_34: 845969205
       IceTileset_35: 459183511
-      IceTileset_121: -413853657
-      IceTileset_131: 148563546
-      IceTileset_53: -971412069
-      IceTileset_99: -1004851008
+      IceTileset_36: -1716768223
       IceTileset_37: 1019748545
+      IceTileset_38: 134450664
+      IceTileset_39: -1680542554
+      IceTileset_4: 64229442
+      IceTileset_40: 2040466873
+      IceTileset_41: 1096723098
+      IceTileset_42: 1417285365
+      IceTileset_43: -159834450
+      IceTileset_44: 757082385
+      IceTileset_45: -528375503
+      IceTileset_46: -1092907040
+      IceTileset_47: -1578068656
+      IceTileset_48: 333840995
+      IceTileset_49: -540506210
+      IceTileset_5: -732193000
+      IceTileset_50: 1838378914
+      IceTileset_51: 1281744312
+      IceTileset_52: -411655641
+      IceTileset_53: -971412069
+      IceTileset_54: -401330301
+      IceTileset_55: -481232227
+      IceTileset_56: -3713017
+      IceTileset_57: -620072893
+      IceTileset_58: 1152537934
+      IceTileset_59: -475928205
+      IceTileset_6: -1243241745
+      IceTileset_60: 208856455
+      IceTileset_61: 199483898
+      IceTileset_62: -833983981
+      IceTileset_63: -1702416940
+      IceTileset_64: -1487999172
+      IceTileset_65: 945853104
+      IceTileset_66: -1741481045
+      IceTileset_67: 322590368
+      IceTileset_68: 1880431353
+      IceTileset_69: -1748024561
+      IceTileset_7: 4518847
+      IceTileset_70: -471402834
+      IceTileset_71: -1161951758
+      IceTileset_72: -1173301645
+      IceTileset_73: 278072589
       IceTileset_74: 482400489
-  spritePackingTag: 
+      IceTileset_75: 1970693443
+      IceTileset_76: -1438022915
+      IceTileset_77: -321885421
+      IceTileset_78: -366508729
+      IceTileset_79: 1339955087
+      IceTileset_8: -904448224
+      IceTileset_80: -399071988
+      IceTileset_81: -296776716
+      IceTileset_82: 575927010
+      IceTileset_83: 1676681784
+      IceTileset_84: -79868947
+      IceTileset_85: 674682383
+      IceTileset_86: -274375801
+      IceTileset_87: -1290800453
+      IceTileset_88: 681175643
+      IceTileset_89: -451945559
+      IceTileset_9: 851089735
+      IceTileset_90: 1919390938
+      IceTileset_91: -270240904
+      IceTileset_92: 188548167
+      IceTileset_93: 1099173146
+      IceTileset_94: -800803856
+      IceTileset_95: 1149306206
+      IceTileset_96: 2102483243
+      IceTileset_97: -935771181
+      IceTileset_98: 348593689
+      IceTileset_99: -1004851008
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

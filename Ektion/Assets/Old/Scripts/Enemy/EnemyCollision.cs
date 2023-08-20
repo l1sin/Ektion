@@ -15,7 +15,7 @@ public class EnemyCollision : MonoBehaviour
         var hit = Physics2D.OverlapBox(transform.position + _offset, _size, 0, _layerMask);
         if (hit)
         {
-            hit.gameObject.GetComponent<PlayerHealth>().GetDamage(_damagePerSecond * Time.deltaTime);
+            //hit.gameObject.GetComponent<PlayerHealth>().GetDamage(_damagePerSecond * Time.deltaTime);
         }
     }
     private void OnDrawGizmosSelected()

@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -75,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -111,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -123,6 +129,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -135,6 +142,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -3259,157 +3267,156 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      RPG Nature Tileset_31: 799467005
-      RPG Nature Tileset_63: -1870423455
-      RPG Nature Tileset_1: -1708177940
-      RPG Nature Tileset_103: 347221106
-      RPG Nature Tileset_21: 1595577676
-      RPG Nature Tileset_12: -764698810
-      RPG Nature Tileset_33: -407058291
-      RPG Nature Tileset_35: -1502198732
-      RPG Nature Tileset_77: 19923407
-      RPG Nature Tileset_82: 1787655692
-      RPG Nature Tileset_145: -1312363881
-      RPG Nature Tileset_138: 345193937
-      RPG Nature Tileset_9: -271689255
-      RPG Nature Tileset_23: 959484603
-      RPG Nature Tileset_43: 1330093528
-      RPG Nature Tileset_106: -292620044
-      RPG Nature Tileset_76: 1498474502
-      RPG Nature Tileset_54: -1371906338
-      RPG Nature Tileset_81: -675349535
-      RPG Nature Tileset_69: -1586160111
-      RPG Nature Tileset_4: 408920388
-      RPG Nature Tileset_78: -869117003
-      RPG Nature Tileset_13: -1580958712
-      RPG Nature Tileset_105: 1326406162
-      RPG Nature Tileset_113: 1287141519
-      RPG Nature Tileset_27: -675784817
-      RPG Nature Tileset_127: 104442025
-      RPG Nature Tileset_80: -1823708808
-      RPG Nature Tileset_86: 736150088
-      RPG Nature Tileset_101: 1780664762
-      RPG Nature Tileset_10: 1945988485
-      RPG Nature Tileset_6: 1979842807
-      RPG Nature Tileset_107: -1183659397
-      RPG Nature Tileset_128: 969722187
-      RPG Nature Tileset_141: 1013975215
-      RPG Nature Tileset_70: 864091074
-      RPG Nature Tileset_7: 408282041
-      RPG Nature Tileset_39: -1142014906
-      RPG Nature Tileset_74: 80028738
-      RPG Nature Tileset_50: 670255432
       RPG Nature Tileset_0: -801550945
-      RPG Nature Tileset_89: -878047923
-      RPG Nature Tileset_118: -423435550
-      RPG Nature Tileset_133: -521340517
-      RPG Nature Tileset_126: -1708988050
-      RPG Nature Tileset_20: 742825339
-      RPG Nature Tileset_44: -656770360
-      RPG Nature Tileset_58: 1088031590
-      RPG Nature Tileset_32: -1673222779
-      RPG Nature Tileset_85: -1841083543
-      RPG Nature Tileset_37: -611710894
-      RPG Nature Tileset_120: 1664098413
-      RPG Nature Tileset_61: 1770057425
-      RPG Nature Tileset_122: -214023302
-      RPG Nature Tileset_36: 1823751849
-      RPG Nature Tileset_55: 1814610248
-      RPG Nature Tileset_47: -1907030852
-      RPG Nature Tileset_2: 1934194966
-      RPG Nature Tileset_17: -397454458
-      RPG Nature Tileset_28: -1601533594
-      RPG Nature Tileset_110: -248235189
-      RPG Nature Tileset_88: -1308195349
-      RPG Nature Tileset_137: -2032433399
-      RPG Nature Tileset_75: -274811978
-      RPG Nature Tileset_104: -297040806
-      RPG Nature Tileset_90: -1768539075
-      RPG Nature Tileset_3: 749415530
-      RPG Nature Tileset_38: 1443444932
-      RPG Nature Tileset_146: 59706898
-      RPG Nature Tileset_87: 2033278586
-      RPG Nature Tileset_16: 234403121
-      RPG Nature Tileset_121: 283149531
-      RPG Nature Tileset_95: 26094526
-      RPG Nature Tileset_8: 1277659634
-      RPG Nature Tileset_48: -2000045529
-      RPG Nature Tileset_117: 1022863885
-      RPG Nature Tileset_72: 83500192
-      RPG Nature Tileset_125: 1216522118
-      RPG Nature Tileset_94: 976523415
-      RPG Nature Tileset_108: 1617463158
-      RPG Nature Tileset_135: 1784825139
-      RPG Nature Tileset_52: -1512043096
-      RPG Nature Tileset_57: 899371868
-      RPG Nature Tileset_65: 1998697691
-      RPG Nature Tileset_119: -1047818154
-      RPG Nature Tileset_26: 296393592
-      RPG Nature Tileset_53: -1847312907
-      RPG Nature Tileset_14: -1627376404
-      RPG Nature Tileset_40: 441861992
-      RPG Nature Tileset_5: -1874701501
-      RPG Nature Tileset_144: 30064777
-      RPG Nature Tileset_45: 1743629173
-      RPG Nature Tileset_124: 777177055
-      RPG Nature Tileset_131: -1640128932
-      RPG Nature Tileset_64: -1932496814
-      RPG Nature Tileset_59: 2033399675
-      RPG Nature Tileset_102: -1200815616
-      RPG Nature Tileset_11: -5031228
-      RPG Nature Tileset_129: 1662764299
-      RPG Nature Tileset_91: -1648221780
-      RPG Nature Tileset_143: -1321179327
-      RPG Nature Tileset_109: 2109938188
-      RPG Nature Tileset_68: -444091241
-      RPG Nature Tileset_18: -563694904
-      RPG Nature Tileset_73: 1979086887
-      RPG Nature Tileset_15: -140231354
-      RPG Nature Tileset_19: 2096624966
-      RPG Nature Tileset_136: 1080117004
-      RPG Nature Tileset_46: -488772822
-      RPG Nature Tileset_41: -2058859984
-      RPG Nature Tileset_34: 732551724
-      RPG Nature Tileset_66: 635350057
-      RPG Nature Tileset_84: 1147285246
-      RPG Nature Tileset_140: 2106198891
-      RPG Nature Tileset_29: 1738698833
-      RPG Nature Tileset_51: -1695683453
-      RPG Nature Tileset_114: 1716279162
-      RPG Nature Tileset_112: 1027061446
-      RPG Nature Tileset_30: 388740724
-      RPG Nature Tileset_49: -1048892294
-      RPG Nature Tileset_134: -2028814150
-      RPG Nature Tileset_93: 1408163533
-      RPG Nature Tileset_139: -265967231
-      RPG Nature Tileset_42: -201800004
-      RPG Nature Tileset_60: -836107817
-      RPG Nature Tileset_99: -1460630974
-      RPG Nature Tileset_83: -604237230
-      RPG Nature Tileset_62: 1183309242
-      RPG Nature Tileset_79: 1324899637
-      RPG Nature Tileset_22: -623320667
-      RPG Nature Tileset_97: 343425626
+      RPG Nature Tileset_1: -1708177940
+      RPG Nature Tileset_10: 1945988485
       RPG Nature Tileset_100: -544796229
-      RPG Nature Tileset_71: 2140800899
-      RPG Nature Tileset_123: -1458047291
-      RPG Nature Tileset_132: -1050885605
-      RPG Nature Tileset_142: 418849392
-      RPG Nature Tileset_96: 479501817
-      RPG Nature Tileset_115: -614757049
-      RPG Nature Tileset_56: -1470693333
-      RPG Nature Tileset_92: -526878772
+      RPG Nature Tileset_101: 1780664762
+      RPG Nature Tileset_102: -1200815616
+      RPG Nature Tileset_103: 347221106
+      RPG Nature Tileset_104: -297040806
+      RPG Nature Tileset_105: 1326406162
+      RPG Nature Tileset_106: -292620044
+      RPG Nature Tileset_107: -1183659397
+      RPG Nature Tileset_108: 1617463158
+      RPG Nature Tileset_109: 2109938188
+      RPG Nature Tileset_11: -5031228
+      RPG Nature Tileset_110: -248235189
       RPG Nature Tileset_111: -1601794497
-      RPG Nature Tileset_147: -266852576
-      RPG Nature Tileset_24: 1901288979
-      RPG Nature Tileset_67: -1413635141
-      RPG Nature Tileset_98: -1351649844
-      RPG Nature Tileset_25: 1213504682
-      RPG Nature Tileset_130: 1556039365
+      RPG Nature Tileset_112: 1027061446
+      RPG Nature Tileset_113: 1287141519
+      RPG Nature Tileset_114: 1716279162
+      RPG Nature Tileset_115: -614757049
       RPG Nature Tileset_116: -1008386157
-  spritePackingTag: 
+      RPG Nature Tileset_117: 1022863885
+      RPG Nature Tileset_118: -423435550
+      RPG Nature Tileset_119: -1047818154
+      RPG Nature Tileset_12: -764698810
+      RPG Nature Tileset_120: 1664098413
+      RPG Nature Tileset_121: 283149531
+      RPG Nature Tileset_122: -214023302
+      RPG Nature Tileset_123: -1458047291
+      RPG Nature Tileset_124: 777177055
+      RPG Nature Tileset_125: 1216522118
+      RPG Nature Tileset_126: -1708988050
+      RPG Nature Tileset_127: 104442025
+      RPG Nature Tileset_128: 969722187
+      RPG Nature Tileset_129: 1662764299
+      RPG Nature Tileset_13: -1580958712
+      RPG Nature Tileset_130: 1556039365
+      RPG Nature Tileset_131: -1640128932
+      RPG Nature Tileset_132: -1050885605
+      RPG Nature Tileset_133: -521340517
+      RPG Nature Tileset_134: -2028814150
+      RPG Nature Tileset_135: 1784825139
+      RPG Nature Tileset_136: 1080117004
+      RPG Nature Tileset_137: -2032433399
+      RPG Nature Tileset_138: 345193937
+      RPG Nature Tileset_139: -265967231
+      RPG Nature Tileset_14: -1627376404
+      RPG Nature Tileset_140: 2106198891
+      RPG Nature Tileset_141: 1013975215
+      RPG Nature Tileset_142: 418849392
+      RPG Nature Tileset_143: -1321179327
+      RPG Nature Tileset_144: 30064777
+      RPG Nature Tileset_145: -1312363881
+      RPG Nature Tileset_146: 59706898
+      RPG Nature Tileset_147: -266852576
+      RPG Nature Tileset_15: -140231354
+      RPG Nature Tileset_16: 234403121
+      RPG Nature Tileset_17: -397454458
+      RPG Nature Tileset_18: -563694904
+      RPG Nature Tileset_19: 2096624966
+      RPG Nature Tileset_2: 1934194966
+      RPG Nature Tileset_20: 742825339
+      RPG Nature Tileset_21: 1595577676
+      RPG Nature Tileset_22: -623320667
+      RPG Nature Tileset_23: 959484603
+      RPG Nature Tileset_24: 1901288979
+      RPG Nature Tileset_25: 1213504682
+      RPG Nature Tileset_26: 296393592
+      RPG Nature Tileset_27: -675784817
+      RPG Nature Tileset_28: -1601533594
+      RPG Nature Tileset_29: 1738698833
+      RPG Nature Tileset_3: 749415530
+      RPG Nature Tileset_30: 388740724
+      RPG Nature Tileset_31: 799467005
+      RPG Nature Tileset_32: -1673222779
+      RPG Nature Tileset_33: -407058291
+      RPG Nature Tileset_34: 732551724
+      RPG Nature Tileset_35: -1502198732
+      RPG Nature Tileset_36: 1823751849
+      RPG Nature Tileset_37: -611710894
+      RPG Nature Tileset_38: 1443444932
+      RPG Nature Tileset_39: -1142014906
+      RPG Nature Tileset_4: 408920388
+      RPG Nature Tileset_40: 441861992
+      RPG Nature Tileset_41: -2058859984
+      RPG Nature Tileset_42: -201800004
+      RPG Nature Tileset_43: 1330093528
+      RPG Nature Tileset_44: -656770360
+      RPG Nature Tileset_45: 1743629173
+      RPG Nature Tileset_46: -488772822
+      RPG Nature Tileset_47: -1907030852
+      RPG Nature Tileset_48: -2000045529
+      RPG Nature Tileset_49: -1048892294
+      RPG Nature Tileset_5: -1874701501
+      RPG Nature Tileset_50: 670255432
+      RPG Nature Tileset_51: -1695683453
+      RPG Nature Tileset_52: -1512043096
+      RPG Nature Tileset_53: -1847312907
+      RPG Nature Tileset_54: -1371906338
+      RPG Nature Tileset_55: 1814610248
+      RPG Nature Tileset_56: -1470693333
+      RPG Nature Tileset_57: 899371868
+      RPG Nature Tileset_58: 1088031590
+      RPG Nature Tileset_59: 2033399675
+      RPG Nature Tileset_6: 1979842807
+      RPG Nature Tileset_60: -836107817
+      RPG Nature Tileset_61: 1770057425
+      RPG Nature Tileset_62: 1183309242
+      RPG Nature Tileset_63: -1870423455
+      RPG Nature Tileset_64: -1932496814
+      RPG Nature Tileset_65: 1998697691
+      RPG Nature Tileset_66: 635350057
+      RPG Nature Tileset_67: -1413635141
+      RPG Nature Tileset_68: -444091241
+      RPG Nature Tileset_69: -1586160111
+      RPG Nature Tileset_7: 408282041
+      RPG Nature Tileset_70: 864091074
+      RPG Nature Tileset_71: 2140800899
+      RPG Nature Tileset_72: 83500192
+      RPG Nature Tileset_73: 1979086887
+      RPG Nature Tileset_74: 80028738
+      RPG Nature Tileset_75: -274811978
+      RPG Nature Tileset_76: 1498474502
+      RPG Nature Tileset_77: 19923407
+      RPG Nature Tileset_78: -869117003
+      RPG Nature Tileset_79: 1324899637
+      RPG Nature Tileset_8: 1277659634
+      RPG Nature Tileset_80: -1823708808
+      RPG Nature Tileset_81: -675349535
+      RPG Nature Tileset_82: 1787655692
+      RPG Nature Tileset_83: -604237230
+      RPG Nature Tileset_84: 1147285246
+      RPG Nature Tileset_85: -1841083543
+      RPG Nature Tileset_86: 736150088
+      RPG Nature Tileset_87: 2033278586
+      RPG Nature Tileset_88: -1308195349
+      RPG Nature Tileset_89: -878047923
+      RPG Nature Tileset_9: -271689255
+      RPG Nature Tileset_90: -1768539075
+      RPG Nature Tileset_91: -1648221780
+      RPG Nature Tileset_92: -526878772
+      RPG Nature Tileset_93: 1408163533
+      RPG Nature Tileset_94: 976523415
+      RPG Nature Tileset_95: 26094526
+      RPG Nature Tileset_96: 479501817
+      RPG Nature Tileset_97: 343425626
+      RPG Nature Tileset_98: -1351649844
+      RPG Nature Tileset_99: -1460630974
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

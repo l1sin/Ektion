@@ -8,7 +8,7 @@ public class UI : MonoBehaviour
     public GameObject[] _menus;
     [SerializeField] private Image _expLine;
     [SerializeField] private Image _hPLine;
-    [SerializeField] private PlayerHealth _playerHealth;
+    //[SerializeField] private PlayerHealth _playerHealth;
 
     [Header("Timer")]
     [SerializeField] private TextMeshProUGUI _timerText;
@@ -40,7 +40,7 @@ public class UI : MonoBehaviour
     private void Update()
     {
         ShowExpLine();
-        ShowHPLine();
+        //ShowHPLine();
         Pause();
         if (TimerStarted)
         {
@@ -56,21 +56,21 @@ public class UI : MonoBehaviour
         }
     }
 
-    private void ShowHPLine()
-    {
-        if (_playerHealth != null && _hPLine != null)
-        {
-            _hPLine.fillAmount = _playerHealth.CurrentHealth / _playerHealth.MaxHealth;
-            if (_hPLine.fillAmount == 1)
-            {
-                _hPLine.transform.parent.gameObject.SetActive(false);
-            }
-            else
-            {
-                _hPLine.transform.parent.gameObject.SetActive(true);
-            }
-        }
-    }
+    //private void ShowHPLine()
+    //{
+    //    if (_playerHealth != null && _hPLine != null)
+    //    {
+    //        _hPLine.fillAmount = _playerHealth.CurrentHealth / _playerHealth.MaxHealth;
+    //        if (_hPLine.fillAmount == 1)
+    //        {
+    //            _hPLine.transform.parent.gameObject.SetActive(false);
+    //        }
+    //        else
+    //        {
+    //            _hPLine.transform.parent.gameObject.SetActive(true);
+    //        }
+    //    }
+    //}
 
     public GameObject SpawnMenu(GameObject menu)
     {
