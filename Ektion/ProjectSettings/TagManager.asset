@@ -44,10 +44,10 @@ TagManager:
   - name: Ground
     uniqueID: 3732775669
     locked: 0
-  - name: Player
+  - name: Enemy
     uniqueID: 1914663353
     locked: 0
-  - name: Enemy
+  - name: Character
     uniqueID: 623005495
     locked: 0
   - name: UI
