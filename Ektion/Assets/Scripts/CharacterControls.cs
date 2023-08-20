@@ -7,6 +7,8 @@ public class CharacterControls : MonoBehaviour
 {
     [SerializeField] private PlayerInput playerInput;
     [SerializeField] private Rigidbody2D rb2D;
+    [SerializeField] private Animator animator;
+    [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private float speed;
     private InputAction moveAction;
     private Vector3 moveVector;
@@ -33,5 +35,8 @@ public class CharacterControls : MonoBehaviour
     private void Move()
     {
         rb2D.velocity = moveVector * speed;
+        if (moveVector.x > 0) spriteRenderer.flipX = false;
+        else if (moveVector.x < 0) spriteRenderer.flipX = true;
+        animator.SetFloat("Speed", rb2D.velocity.magnitude);
     }
 }
