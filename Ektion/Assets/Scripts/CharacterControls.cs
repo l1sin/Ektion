@@ -6,18 +6,15 @@ using UnityEngine.InputSystem;
 public class CharacterControls : MonoBehaviour
 {
     [SerializeField] private PlayerInput playerInput;
+    [SerializeField] private Rigidbody2D rb2D;
     [SerializeField] private float speed;
     private InputAction moveAction;
     private Vector3 moveVector;
-    public PlayerInput PlayerInput
-    {
-        get => playerInput;
-    }
 
     public void Awake()
     {
-        moveAction = PlayerInput.actions["Move"];
-        PlayerInput.onActionTriggered += PlayerInput_onActionTriggered;
+        moveAction = playerInput.actions["Move"];
+        playerInput.onActionTriggered += PlayerInput_onActionTriggered;
     }
 
     private void PlayerInput_onActionTriggered(InputAction.CallbackContext obj)
@@ -28,13 +25,13 @@ public class CharacterControls : MonoBehaviour
         }
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         Move();
     }
 
     private void Move()
     {
-        transform.Translate(moveVector * speed * Time.deltaTime);
+        rb2D.velocity = moveVector * speed;
     }
 }
