@@ -306,7 +306,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -24419,13 +24419,14 @@ MonoBehaviour:
   pos: {fileID: 519420032}
   size: 15
   prefab: {fileID: 2799749509345857507, guid: c615291cfde15a04daabfbe8b686b77e, type: 3}
-  SpawnPerMinute: 600
+  SpawnPerMinute: 60
   SpawnTimer: 0
   SpawnTime: 0
-  EnemyPool: {fileID: 2140021580}
+  EnemyPool: {fileID: 685804893}
   AllowedSpawn:
     serializedVersion: 2
     m_Bits: 64
+  Character: {fileID: 122194997}
 --- !u!1 &571408041
 GameObject:
   m_ObjectHideFlags: 0
@@ -24530,7 +24531,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &685804893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24544,7 +24545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pool: []
-  GameObjectToPool: {fileID: 0}
+  GameObjectToPool: {fileID: 1262933174205135475, guid: b0bace910e4ca4e4da58f970cd7cea06, type: 3}
   PoolStartAmount: 10
 --- !u!4 &685804894
 Transform:

@@ -13,6 +13,8 @@ public class Spawner : MonoBehaviour
     public ObjectPool EnemyPool;
     public LayerMask AllowedSpawn;
 
+    public Transform Character;
+
     public void Start()
     {
         SpawnTime = 60 / SpawnPerMinute;
@@ -38,12 +40,13 @@ public class Spawner : MonoBehaviour
         spawnPosition = (Vector2)pos.position + spawnVector * size;
         if (Physics2D.OverlapCircle(spawnPosition, 0, AllowedSpawn))
         {
-            Debug.Log("Spawn");
-            EnemyPool.GetPooledObject(spawnPosition, Quaternion.identity);
+            GameObject enemyObject = EnemyPool.GetPooledObject(spawnPosition, Quaternion.identity);
+            Enemy enemy = enemyObject.GetComponent<Enemy>();
+            enemy.FullReset();
+            enemy.Character = Character;
         }
         else
         {
-            Debug.Log("Try Again");
             SpawnEnemy();
         }
     }
