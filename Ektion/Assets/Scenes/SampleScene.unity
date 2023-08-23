@@ -220,7 +220,8 @@ GameObject:
   - component: {fileID: 122195002}
   - component: {fileID: 122195000}
   - component: {fileID: 122195003}
-  m_Layer: 0
+  - component: {fileID: 122195004}
+  m_Layer: 7
   m_Name: Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -446,8 +447,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d58f01d9d5a179429987e9da8af2b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  experience: 0
-  level: 0
+  Exp: 0
+  Level: 0
+--- !u!114 &122195004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122194995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db5175b3d587c7f41925b37431bfd96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthMax: 100
+  healthCurrent: 0
 --- !u!1 &388238842
 GameObject:
   m_ObjectHideFlags: 0
@@ -24416,9 +24431,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be46163fc2d29194191a0f13d6cc96df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pos: {fileID: 519420032}
-  size: 15
-  prefab: {fileID: 2799749509345857507, guid: c615291cfde15a04daabfbe8b686b77e, type: 3}
+  Pos: {fileID: 122194997}
+  Size: 15
+  Prefab: {fileID: 1262933174205135475, guid: b0bace910e4ca4e4da58f970cd7cea06, type: 3}
   SpawnPerMinute: 60
   SpawnTimer: 0
   SpawnTime: 0
@@ -24427,6 +24442,16 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   Character: {fileID: 122194997}
+  EnemyDatas:
+  - {fileID: 11400000, guid: d1c24f8bdd214784eb0950d877573ff8, type: 2}
+  - {fileID: 11400000, guid: 1c1803164f37ffc4d8a6cfbf7612fa6e, type: 2}
+  - {fileID: 11400000, guid: 189c40410c233d94c96f19fe8602c4b6, type: 2}
+  - {fileID: 11400000, guid: b8595dec2c568484f80a6eba26c7caae, type: 2}
+  - {fileID: 11400000, guid: 8589f64756133fd41929fee5fcd38416, type: 2}
+  - {fileID: 11400000, guid: 07fdd80f2378edf41b8ed7b06548772d, type: 2}
+  - {fileID: 11400000, guid: 0ce6f947160ce3143829104ef9738a7a, type: 2}
+  - {fileID: 11400000, guid: 0030f736507d97741a1c12799bfc9188, type: 2}
+  EnemyIndex: 0
 --- !u!1 &571408041
 GameObject:
   m_ObjectHideFlags: 0

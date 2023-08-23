@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Experience : MonoBehaviour
 {
     public static Experience Instance;
-    public int experience;
-    public int level;
+    public float Exp;
+    public int Level;
 
     private void Awake()
     {
@@ -22,6 +20,6 @@ public class Experience : MonoBehaviour
 
     public void GetExperience(int exp)
     {
-        experience += exp;
+        Exp += exp;
     }
 }
