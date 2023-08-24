@@ -14,7 +14,7 @@ TagManager:
   - AllowedSpawn
   - Character
   - Enemy
-  - 
+  - Projectile
   - 
   - 
   - 
@@ -49,6 +49,9 @@ TagManager:
     locked: 0
   - name: Enemy
     uniqueID: 1914663353
+    locked: 0
+  - name: Effects
+    uniqueID: 1951992739
     locked: 0
   - name: Character
     uniqueID: 623005495

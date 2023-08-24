@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,10 +7,19 @@ public class Character : MonoBehaviour, IDamageable
     public float HealthCurrent { get => healthCurrent; set => healthCurrent = value; }
     [SerializeField] private float healthMax;
     [SerializeField] private float healthCurrent;
+    public List<BaseAbility> Abilities;
 
     public void Awake()
     {
         healthCurrent = healthMax;
+    }
+
+    public void Update()
+    {
+        foreach (var a in Abilities)
+        {
+            a.ReduceCooldown();
+        }
     }
 
     public void Die()

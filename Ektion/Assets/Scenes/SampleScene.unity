@@ -267,7 +267,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 623005495
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -83931874, guid: f2ed27d6c1c3ccc48959bcca269d88f0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -292,7 +292,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 681737247}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &122194998
@@ -359,7 +360,7 @@ MonoBehaviour:
   rb2D: {fileID: 122194998}
   animator: {fileID: 122194999}
   spriteRenderer: {fileID: 122194996}
-  speed: 5
+  speed: 2
 --- !u!114 &122195001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -463,6 +464,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthMax: 100
   healthCurrent: 0
+  Abilities:
+  - {fileID: 681737248}
 --- !u!1 &388238842
 GameObject:
   m_ObjectHideFlags: 0
@@ -24540,6 +24543,58 @@ Transform:
   - {fileID: 719702350}
   m_Father: {fileID: 1822632793}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &681737246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 681737247}
+  - component: {fileID: 681737248}
+  m_Layer: 7
+  m_Name: Abilities
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &681737247
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681737246}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 122194997}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &681737248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681737246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf2bf5cbf18c0144998902b808c62cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 
+  Icon: {fileID: 0}
+  Cooldown: 1
+  CooldownTimer: 0
+  ProjectileCount: 0
+  Damage: 0
+  Speed: 0
+  KnifePrefab: {fileID: 3648976471958030639, guid: eff464db33a8ab743a1fa4b9daaf5d4e, type: 3}
 --- !u!1 &685804892
 GameObject:
   m_ObjectHideFlags: 0
